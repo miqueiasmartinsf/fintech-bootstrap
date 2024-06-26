@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BudgetHub</title>
-    <link href="/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-  </head>
-</head>
-<body class="">
-    <header class="d-flex justify-content-around align-items-center px-5 py-2 w-100">
-        <a href="#" class="text-decoration-none">
-          <h1 class="text-primary h3">BudgetHub</h1>
-        </a>
-        <div>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-          </ul>
-        </div>
-    </header>
-    <main>
-      <section id="home" class="mh-100 h-screen"></section>
-      <section id="" class="mh-100 h-screen"></section>
-      <section id="" class="mh-100 h-screen"></section>
-
-
-    </main>
-  
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BudgetHub</title>
+      <link href="/css/custom.css" rel="stylesheet">
+      <link rel="stylesheet" href="index.css">
+   </head>
+   </head>
+   <body>
+      <header class="d-flex justify-content-between base-padding align-items-center py-2 w-100 position-fixed">
+         <a href="#" class="text-decoration-none">
+            <h1 class="text-primary h3">BudgetHub</h1>
+         </a>
+         <div>
+            <ul class="nav">
+               <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Início</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+               </li>
+            </ul>
+         </div>
+      </header>
+      <main class="base-padding py-6 w-100 mh-100">
+         <section id="home" class="mh-100 h-screen d-flex justify-content-center align-items-center ">
+            <div class="w-50 h-100   d-flex flex-column justify-content-start align-items-center">
+               <h1>Controle suas finanças, alcance seus objetivos: seu futuro financeiro começa aqui.</h1>
+               <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit at consectetur quidem, tempore ex corrupti voluptatum ipsum fugiat fugit.</p>
+               
+               <button class="btn btn-primary mt-4">Saber mais</button>
+            </div>
+            <div class="w-50 h-100  d-flex justify-content-end">
+              <div class="w-75 rounded h-50 d-flex justify-content-end align-items-center">
+                <img src="public/smartphone.png" alt="" class="w-100 rounded">
+              </div>
+            </div>
+         </section>
+         <section id="about" class="mh-100 h-screen d-flex py-4 justify-content-center align-items-center">
+          <div class="w-50 d-flex flex-column justify-content-start align-items-center">
+             <h1>Controle suas finanças, alcance seus objetivos: seu futuro financeiro começa aqui.</h1>
+             <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit at consectetur quidem, tempore ex corrupti voluptatum ipsum fugiat fugit.</p>
+             <button class="btn btn-primary mt-4">Saber mais</button>
+          </div>
+          <div class="w-50 d-flex justify-content-end">
+            <div class="w-100 rounded h-50 bg-primary d-flex justify-content-center align-items-center">
+              <img src="public/devices.png" alt="" class="w-100">
+            </div>
+          </div>
+       </section>
+         <section id="" class="mh-100 h-screen"></section>
+      </main>
+   </body>
 </html>
