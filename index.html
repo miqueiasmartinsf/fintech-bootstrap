@@ -8,27 +8,43 @@
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <header
-            class="d-flex justify-content-between base-padding align-items-center py-2 w-100"
-        >
-            <a href="#" class="text-decoration-none">
-                <h1 class="text-primary h3">BudgetHub</h1>
-            </a>
-            <div>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home"
-                            >Início</a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#start">Começar agora</a>
-                    </li>
-                </ul>
-            </div>
+        <header class="px-5">
+            <nav class="mb-4 navbar navbar-expand-lg navbar-dark cyan">
+                <a class="navbar-brand font-bold" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent-4"
+                    aria-controls="navbarSupportedContent-4"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse d-flex justify-content-end"
+                    id="navbarSupportedContent-4"
+                >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-primary" href="#"
+                                ><i class="fa fa-envelope"></i> Início
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#"
+                                ><i class="fa fa-gear"></i> Sobre</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#"
+                                ><i class="fa fa-gear"></i> Sobre</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <main class="w-100 mh-100 container">
             <section id="home" class="mh-100 h-screen pb-5">
@@ -48,7 +64,7 @@
                     </p>
                 </div>
                 <div class="container">
-                    <div class="row w-100 d-flex justify-content-center">
+                    <div class="row w-100 d-flex justify-content-center" id="home-stats">
                         <p class="h2 col-4 text-center">+21312 usuários</p>
                         <p class="h2 col-4 text-center">R$ 352M economizados</p>
                         <p class="h2 col-4 text-center">+212 planejamentos</p>
@@ -64,7 +80,7 @@
             </section>
             <section id="about" class="mh-100 h-screen py-4 row gap-5">
                 <div
-                    class="w-50 d-flex flex-column justify-content-start align-items-center col"
+                    class=" d-flex flex-column justify-content-start align-items-center col"
                 >
                     <h1>Controle suas Finanças de Forma Simples e Eficiente</h1>
                     <p class="mt-4">
@@ -80,18 +96,18 @@
                         <span class="text-white">Saber mais</span>
                     </button>
                 </div>
-                <div class="w-50 d-flex justify-content-end col">
+                <div class=" d-flex justify-content-end col">
                     <div
-                        class="w-100 rounded h-50 bg-primary d-flex justify-content-center align-items-center"
+                        class="w-100 rounded h-50 bg-primary d-flex justify-content-center align-items-center img-container"
                     >
                         <img src="public/devices.png" alt="" class="w-100" />
                     </div>
                 </div>
             </section>
             <section id="start" class="mh-100 h-screen py-4 row gap-5">
-                <div class="w-50 d-flex justify-content-end col">
+                <div class=" d-flex justify-content-end col">
                     <div
-                        class="w-100 rounded h-50 bg-primary d-flex justify-content-center align-items-center"
+                        class="w-100 rounded h-50 bg-primary d-flex justify-content-center align-items-center img-container"
                     >
                         <img
                             src="public/savings.jpg"
@@ -101,7 +117,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-50 d-flex flex-column justify-content-start align-items-center col"
+                    class="d-flex flex-column justify-content-start align-items-center col"
                 >
                     <h1>Alcance Seus Objetivos Financeiros com Facilidade</h1>
                     <p class="mt-4">
@@ -119,9 +135,11 @@
                 </div>
             </section>
         </main>
-        <footer class="bg-black w-100 d-flex justify-content-between base-padding py-5">
+        <footer
+            class="bg-black d-flex justify-content-around align-items-center py-2 w-100 py-5"
+        >
             <h3>BudgetHub</h3>
-            <p> &copy; Todos os direitos reservados</p>
+            <p>&copy; Todos os direitos reservados</p>
         </footer>
     </body>
 </html>
