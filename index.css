@@ -24,3 +24,7 @@ header{
     padding-left: 24rem;
     padding-right: 24rem;
 }
+
+#home{
+    display: grid;
+}
